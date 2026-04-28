@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#f97316"/>
-  <text x="32" y="44" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="26" fill="white" letter-spacing="1">CB</text>
-  <text x="32" y="58" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="16" fill="white" opacity="0.7" letter-spacing="1">TI</text>
+  <rect width="64" height="64" rx="16" fill="#ffe4ef"/>
+  <path d="M48.8 16.8c-1.7-1.6-4.4-1.5-6 .2l-.8.9-.8-.9c-1.6-1.7-4.3-1.8-6-.2-1.8 1.7-1.9 4.5-.2 6.3l7 7.3 7-7.3c1.7-1.8 1.6-4.6-.2-6.3Z" fill="#ff6fa3" opacity=".42"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="22" fill="#b83268" letter-spacing="1.2">LBTI</text>
+  <path d="M17 47c4.8 3.5 25.2 3.5 30 0" stroke="#b83268" stroke-width="2.4" stroke-linecap="round" opacity=".35"/>
 </svg>

@@ -7,6 +7,8 @@ describe('LBTI app', () => {
   it('starts the test and renders answer options as A/B/C choices', () => {
     render(<App />)
 
+    expect(screen.getByText('Love Behavior Type INDICATOR')).toBeInTheDocument()
+
     fireEvent.click(screen.getByRole('button', { name: '开始测试' }))
 
     expect(screen.getByText(questions[0].text)).toBeInTheDocument()

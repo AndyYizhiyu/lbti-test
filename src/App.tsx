@@ -57,7 +57,7 @@ function App() {
       {screen === 'intro' && (
         <section className="hero-card screen-card">
           <div className="hero-copy">
-            <span className="eyebrow">Love Behavior Type Inventory</span>
+            <span className="eyebrow">Love Behavior Type INDICATOR</span>
             <h1>测测你在恋爱市场到底是什么物种</h1>
             <p>
               一套粉色但不降智的恋爱行为测试：看你的心动方式、边界感、表达习惯、暧昧雷达和资源公平观。
