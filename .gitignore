@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Docs files - keep locally only
+docs/sbti.html
+docs/sbti.source.html
+docs/sbti_bilibili_version_info.md
+docs/sbti_doubao_info.md
+docs/lbti_product_design.md
+docs/lbti_product_design_v2.md
