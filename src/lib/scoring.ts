@@ -201,50 +201,51 @@ export const answerKeys: EggQuestion[] = [
 ]
 
 export const personalities: Personality[] = [
-  { code: 'HFDAM', englishName: 'SPARK', name: '热恋发动机', tagline: '喜欢就启动，爱了就推进', strengths: '热烈、真诚、行动强', risks: '容易把暧昧当开局', advice: '保留热度，也给关系一点观察期。' },
-  { code: 'HFDAN', englishName: 'BRAVE', name: '纯爱冲锋队长', tagline: '心动来了，真诚先上桌', strengths: '坦荡、主动、感染力强', risks: '可能过早交付真心', advice: '真诚很好，但别把试探期当终身合约。' },
-  { code: 'HFDWM', englishName: 'GUARD', name: '清醒纯爱猎手', tagline: '很上头，但手里有风控表', strengths: '深情且会筛选', risks: '容易显得忽冷忽热', advice: '让对方看见你的认真，而不只是看见你的审核。' },
-  { code: 'HFDWN', englishName: 'SCOUT', name: '纯爱观察员', tagline: '心里海啸，表面路过', strengths: '深情、克制、专一', risks: '错过窗口期', advice: '喜欢可以慢一点，但别慢到对方以为你没上线。' },
-  { code: 'HFSAM', englishName: 'SUGAR', name: '甜蜜运营官', tagline: '会给糖，也会看数据', strengths: '会照顾气氛、有边界意识', risks: '容易变成关系客服', advice: '别把关系满意度全背到自己身上。' },
-  { code: 'HFSAN', englishName: 'HONEY', name: '甜蜜扩音器', tagline: '爱意很多，表达也会转弯', strengths: '让人舒服、情绪价值高', risks: '容易过度迁就', advice: '温柔要给对方，也要给自己留一份。' },
-  { code: 'HFSWM', englishName: 'MUSER', name: '被窝恋爱分析师', tagline: '夜里写诗，白天查证据', strengths: '细腻、谨慎、会复盘', risks: '容易内耗过度', advice: '把脑内剧场缩短一点，给现实沟通让路。' },
-  { code: 'HFSWN', englishName: 'DREAM', name: '被窝恋爱脑', tagline: '白天正常人，夜里爱情诗人', strengths: '情感细腻、想象力强', risks: '容易脑补和自我消耗', advice: '浪漫可以很满，事实也要跟上。' },
-  { code: 'HBDAM', englishName: 'ARROW', name: '直球边界战士', tagline: '喜欢你，但规则先说清楚', strengths: '真诚、有边界、抗风险', risks: '浪漫感可能被流程感稀释', advice: '边界可以说清楚，语气也可以柔软。' },
-  { code: 'HBDAN', englishName: 'BLAZE', name: '直球独行侠', tagline: '喜欢你，但我也有我的宇宙', strengths: '直接、独立、效率高', risks: '可能显得不够黏', advice: '偶尔主动表达在意，会让独立不显得冷。' },
-  { code: 'HBDWM', englishName: 'VAULT', name: '高冷风控纯爱', tagline: '爱得认真，但先过安检', strengths: '忠诚、慎重、不乱撩', risks: '对方可能觉得你在审人', advice: '风控之外，也要释放一点欢迎信号。' },
-  { code: 'HBDWN', englishName: 'ARMOR', name: '高冷纯爱战士', tagline: '爱得认真，但先藏进盔甲', strengths: '长情、克制、可靠', risks: '对方可能读不到信号', advice: '别让盔甲挡住所有真心。' },
-  { code: 'HBSAM', englishName: 'TREAT', name: '温柔边界谈判官', tagline: '我喜欢你，但合同精神不能丢', strengths: '温柔、成熟、会沟通', risks: '有时太讲道理', advice: '谈边界时，也留一点撒娇和余温。' },
-  { code: 'HBSAN', englishName: 'GRACE', name: '温柔边界派', tagline: '我很喜欢你，但别拆我围墙', strengths: '稳定、舒服、不压迫', risks: '遇到高黏人对象会累', advice: '提前说明你的节奏，能减少误会。' },
-  { code: 'HBSWM', englishName: 'SNAIL', name: '慢热视频侦查员', tagline: '慢慢升温，但雷达常开', strengths: '耐心、谨慎、识别力强', risks: '容易把轻松相处变成观察期', advice: '观察够了就给一点真实反馈。' },
-  { code: 'HBSWN', englishName: 'SLOW', name: '慢热视频收藏家', tagline: '关系升温像小火慢炖', strengths: '长情、耐心、细水长流', risks: '容易被快节奏市场淘汰', advice: '慢热不是失联，记得让对方知道你还在。' },
-  { code: 'CFDAM', englishName: 'DRIVE', name: '清醒推进官', tagline: '感情可以谈，节奏我来控', strengths: '有判断、有行动', risks: '容易像面试官', advice: '推进关系时，别忘了制造轻松感。' },
-  { code: 'CFDAN', englishName: 'PULSE', name: '现实直球派', tagline: '喜欢就约，不合就撤', strengths: '干脆、低内耗', risks: '可能缺少暧昧张力', advice: '效率之外，适当保留一点心动空间。' },
-  { code: 'CFDWM', englishName: 'CHECK', name: '谨慎确认官', tagline: '先验证，再交心', strengths: '稳妥、少踩坑', risks: '过度验证会降低浪漫', advice: '不是所有问题都需要立刻验收。' },
-  { code: 'CFDWN', englishName: 'PROBE', name: '谨慎确认者', tagline: '先观察，再决定要不要交心', strengths: '慢热、可靠', risks: '容易让对方等太久', advice: '适度表达兴趣，避免被误判为无感。' },
-  { code: 'CFSAM', englishName: 'CIVIL', name: '体面经营者', tagline: '会爱，也会维护双方体面', strengths: '情绪稳定、擅长经营', risks: '容易把不满包装太久', advice: '体面不是压抑，问题也值得被说出来。' },
-  { code: 'CFSAN', englishName: 'EASE', name: '松弛协调员', tagline: '有分寸地靠近，有礼貌地喜欢', strengths: '温和、好相处', risks: '容易不够明确', advice: '别让松弛变成模糊，重要态度要说清。' },
-  { code: 'CFSWM', englishName: 'WATCH', name: '温吞风控员', tagline: '不急不抢，先看水质', strengths: '低压、谨慎、可靠', risks: '容易显得兴趣不足', advice: '你可以慢慢来，但别完全不发信号。' },
-  { code: 'CFSWN', englishName: 'COZY', name: '温吞观察员', tagline: '不急不抢，慢慢看人', strengths: '温和、低压、可靠', risks: '容易被误判为没兴趣', advice: '在舒适区里，也可以给关系一个小台阶。' },
-  { code: 'CBDAM', englishName: 'LOGIC', name: '恋爱产品经理', tagline: '关系也要讲需求、边界和迭代', strengths: '清晰、直接、抗风险', risks: '浪漫感可能不足', advice: '保留清醒，也给浪漫一点不完美空间。' },
-  { code: 'CBDAN', englishName: 'COOL', name: '冷静执行官', tagline: '能约会，也能随时下线', strengths: '独立、果断', risks: '亲密温度可能偏低', advice: '效率高很好，但关系需要被感受到。' },
-  { code: 'CBDWM', englishName: 'SIGMA', name: '西格玛风控员', tagline: '门禁很严，雷达很贵', strengths: '自洽、冷静、不上头', risks: '入口太窄', advice: '别把所有靠近都默认成风险事件。' },
-  { code: 'CBDWN', englishName: 'SOLO', name: '西格玛观察员', tagline: '万花丛中过，手机不开锁', strengths: '独立、自洽、不上头', risks: '亲密表达偏少', advice: '独立很好，但亲密需要一个可见入口。' },
-  { code: 'CBSAM', englishName: 'AUDIT', name: '边界温柔审计师', tagline: '有礼貌，也会查账', strengths: '成熟、稳定、尊重人', risks: '容易过度审慎', advice: '不要让审计流程盖过真实相处。' },
-  { code: 'CBSAN', englishName: 'PEACE', name: '边界温柔派', tagline: '有礼貌，有分寸，也有退路', strengths: '温柔、成熟、尊重人', risks: '很难快速进入深层亲密', advice: '给别人靠近你的说明书。' },
-  { code: 'CBSWM', englishName: 'SAVER', name: '低功耗风控贵族', tagline: '恋爱可以，但别消耗我', strengths: '情绪低耗、识别风险强', risks: '可能太难被打动', advice: '省电模式下也可以保留一点心动通知。' },
-  { code: 'CBSWN', englishName: 'CHILL', name: '低功耗单身贵族', tagline: '恋爱可以，别影响我充电', strengths: '自给自足、情绪低耗', risks: '容易让对方觉得被隔离', advice: '如果你愿意靠近，记得把门开一条缝。' },
+  { code: 'HFDAM', englishName: 'FIRE', name: '上头特种兵', tagline: '心动一来，行动直接满格', strengths: '热烈、真诚、推进强', risks: '容易把暧昧当开局', advice: '保留热度，也给关系一点观察期。' },
+  { code: 'HFDAN', englishName: 'BRAVE', name: '纯爱战士', tagline: '心动来了，真诚先上桌', strengths: '坦荡、主动、感染力强', risks: '可能过早交付真心', advice: '真诚很好，但别把试探期当终身合约。' },
+  { code: 'HFDWM', englishName: 'LOCK', name: '清醒纯爱锁', tagline: '很上头，但手里有风控表', strengths: '深情且会筛选', risks: '容易显得忽冷忽热', advice: '让对方看见你的认真，而不只是看见你的审核。' },
+  { code: 'HFDWN', englishName: 'MO-MO', name: '默默上头', tagline: '心里海啸，表面路过', strengths: '深情、克制、专一', risks: '错过窗口期', advice: '喜欢可以慢一点，但别慢到对方以为你没上线。' },
+  { code: 'HFSAM', englishName: 'VIBE', name: '氛围制造家', tagline: '会让关系升温，也知道别烧过头', strengths: '会照顾气氛、有边界意识', risks: '容易变成关系客服', advice: '别把关系满意度全背到自己身上。' },
+  { code: 'HFSAN', englishName: 'HONEY', name: '甜心教主', tagline: '爱意很多，表达也会转弯', strengths: '让人舒服、情绪价值高', risks: '容易过度迁就', advice: '温柔要给对方，也要给自己留一份。' },
+  { code: 'HFSWM', englishName: 'BUG', name: '内耗王者', tagline: '夜里写诗，白天查证据', strengths: '细腻、谨慎、会复盘', risks: '容易脑补和自我消耗', advice: '把脑内剧场缩短一点，给现实沟通让路。' },
+  { code: 'HFSWN', englishName: 'SLEEP', name: '睡觉幻想家', tagline: '白天正常人，夜里爱情诗人', strengths: '情感细腻、想象力强', risks: '容易在幻想里谈完一整段关系', advice: '浪漫可以很满，事实也要跟上。' },
+  { code: 'HBDAM', englishName: 'ZHI-Q', name: '直球选手', tagline: '喜欢你，但规则先说清楚', strengths: '真诚、有边界、抗风险', risks: '浪漫感可能被流程感稀释', advice: '边界可以说清楚，语气也可以柔软。' },
+  { code: 'HBDAN', englishName: 'COOL', name: '高冷直球人', tagline: '喜欢你，但我也有我的宇宙', strengths: '直接、独立、效率高', risks: '可能显得不够黏', advice: '偶尔主动表达在意，会让独立不显得冷。' },
+  { code: 'HBDWM', englishName: 'FENG', name: '封心锁爱', tagline: '爱得认真，但先过安检', strengths: '忠诚、慎重、不乱撩', risks: '对方可能觉得你在审人', advice: '风控之外，也要释放一点欢迎信号。' },
+  { code: 'HBDWN', englishName: 'ARMOR', name: '纯爱盔甲人', tagline: '爱得认真，但先藏进盔甲', strengths: '长情、克制、可靠', risks: '对方可能读不到信号', advice: '别让盔甲挡住所有真心。' },
+  { code: 'HBSAM', englishName: 'SOFT', name: '心软有边界', tagline: '我喜欢你，但底线不能丢', strengths: '温柔、成熟、会沟通', risks: '有时太讲道理', advice: '谈边界时，也留一点撒娇和余温。' },
+  { code: 'HBSAN', englishName: 'GRACE', name: '体面心动家', tagline: '我很喜欢你，但别拆我围墙', strengths: '稳定、舒服、不压迫', risks: '遇到高黏人对象会累', advice: '提前说明你的节奏，能减少误会。' },
+  { code: 'HBSWM', englishName: 'LOOK', name: '先看两眼', tagline: '慢慢升温，但雷达常开', strengths: '耐心、谨慎、识别力强', risks: '容易把轻松相处变成观察期', advice: '观察够了就给一点真实反馈。' },
+  { code: 'HBSWN', englishName: 'SLOW', name: '慢热加载中', tagline: '关系升温像小火慢炖', strengths: '长情、耐心、细水长流', risks: '容易被快节奏市场淘汰', advice: '慢热不是失联，记得让对方知道你还在。' },
+  { code: 'CFDAM', englishName: 'DRIVE', name: '恋爱行动派', tagline: '感情可以谈，节奏也要落地', strengths: '有判断、有行动', risks: '容易给对方压力', advice: '推进关系时，别忘了制造轻松感。' },
+  { code: 'CFDAN', englishName: 'PULSE', name: '心动即刻达', tagline: '喜欢就约，不合就撤', strengths: '干脆、低内耗', risks: '可能缺少暧昧张力', advice: '效率之外，适当保留一点心动空间。' },
+  { code: 'CFDWM', englishName: 'CHECK', name: '清醒查重', tagline: '先验证，再交心', strengths: '稳妥、少踩坑', risks: '过度验证会降低浪漫', advice: '不是所有问题都需要立刻验收。' },
+  { code: 'CFDWN', englishName: 'TEST', name: '试探型选手', tagline: '先试水，再决定要不要交心', strengths: '慢热、可靠', risks: '容易让对方等太久', advice: '适度表达兴趣，避免被误判为无感。' },
+  { code: 'CFSAM', englishName: 'NICE', name: '体面心软人', tagline: '会爱，也会维护双方体面', strengths: '情绪稳定、擅长经营', risks: '容易把不满包装太久', advice: '体面不是压抑，问题也值得被说出来。' },
+  { code: 'CFSAN', englishName: 'EASE', name: '松弛恋爱家', tagline: '有分寸地靠近，有礼貌地喜欢', strengths: '温和、好相处', risks: '容易不够明确', advice: '别让松弛变成模糊，重要态度要说清。' },
+  { code: 'CFSWM', englishName: 'WATCH', name: '温柔观望中', tagline: '不急不抢，先看水质', strengths: '低压、谨慎、可靠', risks: '容易显得兴趣不足', advice: '你可以慢慢来，但别完全不发信号。' },
+  { code: 'CFSWN', englishName: 'COZY', name: '舒适区恋人', tagline: '不急不抢，慢慢看人', strengths: '温和、低压、可靠', risks: '容易被误判为没兴趣', advice: '在舒适区里，也可以给关系一个小台阶。' },
+  { code: 'CBDAM', englishName: 'CTRL', name: '恋爱控场王', tagline: '关系也要讲需求、边界和节奏', strengths: '清晰、直接、抗风险', risks: '浪漫感可能不足', advice: '保留清醒，也给浪漫一点不完美空间。' },
+  { code: 'CBDAN', englishName: 'COLD', name: '冷脸纯爱人', tagline: '能约会，也能随时下线', strengths: '独立、果断', risks: '亲密温度可能偏低', advice: '效率高很好，但关系需要被感受到。' },
+  { code: 'CBDWM', englishName: 'SIGMA', name: '西格玛门禁', tagline: '门禁很严，雷达很贵', strengths: '自洽、冷静、不上头', risks: '入口太窄', advice: '别把所有靠近都默认成风险事件。' },
+  { code: 'CBDWN', englishName: '404', name: '隐身人', tagline: '万花丛中过，手机不开锁', strengths: '独立、自洽、不上头', risks: '亲密表达偏少', advice: '独立很好，但亲密需要一个可见入口。' },
+  { code: 'CBSAM', englishName: 'CLEAR', name: '清醒温柔人', tagline: '有礼貌，也会看账', strengths: '成熟、稳定、尊重人', risks: '容易过度审慎', advice: '不要让观察流程盖过真实相处。' },
+  { code: 'CBSAN', englishName: 'PEACE', name: '边界和平派', tagline: '有礼貌，有分寸，也有退路', strengths: '温柔、成熟、尊重人', risks: '很难快速进入深层亲密', advice: '给别人靠近你的说明书。' },
+  { code: 'CBSWM', englishName: 'SAVER', name: '低功耗恋人', tagline: '恋爱可以，但别消耗我', strengths: '情绪低耗、识别风险强', risks: '可能太难被打动', advice: '省电模式下也可以保留一点心动通知。' },
+  { code: 'CBSWN', englishName: 'CHILL', name: '单身充电中', tagline: '恋爱可以，别影响我充电', strengths: '自给自足、情绪低耗', risks: '容易让对方觉得被隔离', advice: '如果你愿意靠近，记得把门开一条缝。' },
 ]
 
 export const hiddenPersonaCatalog: HiddenPersona[] = [
   { id: 'PURE', name: '纯爱战士', trigger: 'D1 高、D7 高', copy: '你不是恋爱脑，你是把真心当成稀缺金属保管。', advice: '保持真诚，也要看对方是否同样认真。' },
-  { id: 'RADAR', name: '已读未回侦探', trigger: 'D2 低、彩蛋偏脑补', copy: '别人等回复，你在等宇宙给出判决书。', advice: '把猜测变成一次清晰沟通。' },
-  { id: 'SIGMA', name: '恋爱绝缘体', trigger: 'D3 高、D4 低、D8 高', copy: '不是没人能走近你，是你家门禁像核电站。', advice: '独立很好，但亲密需要可见的入口。' },
-  { id: 'PM', name: '相亲需求评审官', trigger: 'D7 高、D5 高、D3 高', copy: '你不是来相亲的，你是来做尽调的。', advice: '筛选重要，也要给情绪流动留空间。' },
+  { id: 'BUG', name: '内耗王者', trigger: 'D2 低、彩蛋偏脑补', copy: '别人等回复，你在等宇宙给出判决书。', advice: '把猜测变成一次清晰沟通。' },
+  { id: 'SIGMA', name: '恋爱门禁', trigger: 'D3 高、D4 低、D8 高', copy: '不是没人能走近你，是你家门禁像核电站。', advice: '独立很好，但亲密需要可见的入口。' },
+  { id: 'PM', name: '相亲尽调人', trigger: 'D7 高、D5 高、D3 高', copy: '你不是来相亲的，你是来做尽调的。', advice: '筛选重要，也要给情绪流动留空间。' },
   { id: 'MOON', name: '赛博月老受害者', trigger: 'D4 高、D6 高', copy: '你撮合别人一套一套，轮到自己开始断网。', advice: '少当关系顾问，多给自己创造机会。' },
   { id: 'TEA', name: '绿茶雷达', trigger: 'D7 高、D10 高', copy: '你不骂人，但你闻得到空气里的茶多酚。', advice: '识别风险后，用事实而不是标签做判断。' },
   { id: 'SEA', name: '海王声呐', trigger: 'D10 高、彩蛋偏识别多人暧昧', copy: '别人看聊天记录，你看见的是一片海域生态图。', advice: '别急着审判，先看事实、边界和承诺。' },
   { id: 'HUNTER', name: '资源猎手', trigger: 'D9 高、D7 高、D5 高', copy: '你不是拜金，你只是拒绝把自己活成免费 DLC。', advice: '重视公平可以，但别把所有真心都换算成成本。' },
-  { id: 'SCUM', name: '渣男渣女避雷器', trigger: 'D10 高、D2 低、D8 中低', copy: '你不是敏感，你是被雷劈过之后学会看天气预报。', advice: '保护自己重要，但别让旧伤替新关系判刑。' },
+  { id: 'SCUM', name: '渣男渣女避雷卡', trigger: 'D10 高、D2 低、D8 中低', copy: '你不是敏感，你是被雷劈过之后学会看天气预报。', advice: '保护自己重要，但别让旧伤替新关系判刑。' },
+  { id: 'DOGE', name: '深情供给站', trigger: 'D1 高、D2 低、D5 低、D8 低、D9 低', copy: '你不是输在深情，你是太容易把“被需要”误会成“被爱”。', advice: '可以付出，但别把自己活成对方的免费续费包。' },
 ]
 
 const emptyScores = (): Record<DimensionId, number> => ({
@@ -268,6 +269,8 @@ const toLevel = (score: number): Level => {
 
 const findPersonality = (code: string): Personality =>
   personalities.find((personality) => personality.code === code) ?? personalities[0]
+
+const stripEndingPunctuation = (text: string): string => text.replace(/[。！？.!?]+$/u, '')
 
 export const calculateResult = (answers: Partial<AnswerMap>): LbtiResult => {
   const rawScores = emptyScores()
@@ -298,7 +301,7 @@ export const calculateResult = (answers: Partial<AnswerMap>): LbtiResult => {
     switch (persona.id) {
       case 'PURE':
         return dimensionLevels.D1 === 'H' && dimensionLevels.D7 === 'H'
-      case 'RADAR':
+      case 'BUG':
         return dimensionLevels.D2 === 'L' && answers.egg_message === 'B'
       case 'SIGMA':
         return dimensionLevels.D3 === 'H' && dimensionLevels.D4 === 'L' && dimensionLevels.D8 === 'H'
@@ -314,12 +317,20 @@ export const calculateResult = (answers: Partial<AnswerMap>): LbtiResult => {
         return dimensionLevels.D9 === 'H' && dimensionLevels.D7 === 'H' && dimensionLevels.D5 === 'H'
       case 'SCUM':
         return dimensionLevels.D10 === 'H' && dimensionLevels.D2 === 'L' && dimensionLevels.D8 !== 'H'
+      case 'DOGE':
+        return (
+          dimensionLevels.D1 === 'H' &&
+          dimensionLevels.D2 === 'L' &&
+          dimensionLevels.D5 === 'L' &&
+          dimensionLevels.D8 === 'L' &&
+          dimensionLevels.D9 === 'L'
+        )
       default:
         return false
     }
   })
 
-  const shareText = `我测出来是【${type.code} / ${type.englishName} - ${type.name}】。恋爱关键词：${type.strengths}。系统建议我：${type.advice}`
+  const shareText = `我在LBTI恋爱人格测试中测出了【${type.englishName} - ${type.name}】。恋爱关键词：${type.strengths}。系统建议我：${stripEndingPunctuation(type.advice)}。你是 被窝恋爱脑 还是 高冷纯爱战士？来测测 👉`
 
   return {
     type,
